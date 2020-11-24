@@ -1,0 +1,52 @@
+{
+	"Console Log":{
+		"prefix": "cl",
+		"body": "console.log($1)",
+		"description": "Console Log"
+	}, 
+
+	"Name Function": {
+		"prefix": "f",
+		"body": [
+		  "function ${1:functionName}($2){",
+		  "      $3",
+		  "}",
+			"",
+		  "${1:functionName}($4)"
+		  
+		],
+		"description": "Name Function"
+	  },
+
+	  "Arrow Function": {
+		"prefix": "af",
+		"body": [
+		  "const ${1: functionName} = ($2) =>{",
+		  "       $3",
+		  "}"
+		],
+		"description": "Arrow Function"
+	  },
+
+	  "Array Method": {
+		"prefix": "arme",
+		"body": [
+		  "${1|forEach, map, filter, reduce, some|}((${2:item}) =>{",
+		  "      $3",
+		  "})"
+		],
+		"description": "Array Method"
+	  },
+
+	  "Query Selector": {
+		  "prefix": "q",
+		  "body": "document.querySelector('$1')",
+		  "description": "Query Selector"
+	  },
+
+	  "Query Selector All": {
+		  "prefix": "qa",
+		  "body": "document.querySelectorAll('$1')",
+		  "description": "Query Selector All"
+	  }
+}
