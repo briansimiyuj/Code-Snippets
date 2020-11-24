@@ -1,0 +1,180 @@
+{
+	"Common css": {
+		"prefix": "*",
+		"body": [
+		  "*{",
+		  "    margin: 0;",
+		  "    padding: 0;",
+		  "    box-sizing: border-box;",
+		  "}",
+		  "",
+		  "$1"
+		],
+		"description": "Common css"
+	  },
+
+	  "Media Queries": {
+		"prefix": "@",
+		"body": [
+		  "/* Media Queries */",
+		  "",
+		  "@media(max-width: $1px){",
+		  "",
+		  "    $2",
+		 "",
+		  "}"
+		],
+		"description": "Media Queries"
+	  },
+	 
+	  "Media Queries Min": {
+		"prefix": "@m",
+		"body": [
+		  "/* Media Queries */",
+		  "",
+		  "@media(min-width: $1px){",
+		  "",
+		  "    $2",
+		 "",
+		  "}"
+		],
+		"description": "Media Queries"
+	  },
+	 
+	  "Media Queries After": {
+		"prefix": "@a",
+		"body": [
+		  "@media(max-width: $1px){",
+		  "",
+		  "    $2",
+		 "",
+		  "}"
+		],
+		"description": "Media Queries"
+	  },
+	 
+	  "Media Queries After Min": {
+		"prefix": "@am",
+		"body": [
+		  "@media(max-width: $1px){",
+		  "",
+		  "    $2",
+		 "",
+		  "}"
+		],
+		"description": "Media Queries"
+	  },
+
+	  "Media Queries screen ": {
+		"prefix": "@s",
+		"body": [
+		  "/* Media Queries */",
+		  "",
+		  "@media screen and (max-width: $1px){",
+		  "",
+		  "    $2",
+		  "",
+		  "}"
+		],
+		"description": "Media Queries"
+	  },
+	  
+	  "Media Queries screen Min ": {
+		"prefix": "@sm",
+		"body": [
+		  "/* Media Queries */",
+		  "",
+		  "@media screen and (min-width: $1px){",
+		  "",
+		  "    $2",
+		  "",
+		  "}"
+		],
+		"description": "Media Queries"
+	  },
+	
+	  "Media Queries screen After": {
+		"prefix": "@sa",
+		"body": [
+		  "@media screen and (max-width: $1px){",
+		  "",
+		  "    $2",
+		  "",
+		  "}"
+		],
+		"description": "Media Queries"
+	  },
+	 
+	  "Media Queries screen After Min": {
+		"prefix": "@sam",
+		"body": [
+		  "@media screen and (min-width: $1px){",
+		  "",
+		  "    $2",
+		  "",
+		  "}"
+		],
+		"description": "Media Queries"
+	  },
+
+	  "Hamburger Button": {
+		  "prefix": "hb",
+		  "body": [
+			".hamburger{",
+				"    background-color: $1;",
+				"    width: ${2:50}px;",
+				"    height: ${2:50}px;",
+				"    position: absolute;",
+				"    top: ${3:45}px;",
+				"    ${4:right: $5px;}",
+				"    display: flex;",
+				"    align-items: center;",
+				"    justify-content: center;",
+				"    border-radius: 50%;",
+				"    cursor: pointer;",
+				"    visibility: ${6:hidden};",
+			"}",
+			"",
+			".bar{",
+				"    background-color: #fff; ",
+				"    height: 2px;",
+				"    width: 30px;",
+				"    position: relative;",
+				"    display: flex;",
+			"}",
+			"",
+			".bar::before, .bar::after{",
+				"   content: '';",
+				"   position: absolute;",
+				"   left: 0;",
+				"   height: 100%;",
+				"   width: 100%;",
+				"   background-color: #fff;",
+			"}",
+			"",
+			".bar::before{",
+				"   top: 8px;",
+			"}",
+			"",
+			".bar::after{",
+				"   bottom: 8px;",        
+			"}",
+			"",
+			".hamburger.active .bar::before{",
+				"   top: 0;",
+				"   transform: rotate(45deg);",
+			"}", 
+			"",
+			".hamburger.active .bar::after{",
+				"    top: 0;",
+				"    transform: rotate(-45deg);",
+			"}",
+			"",
+			".hamburger.active .bar{",
+				"    background-color: transparent;",
+			"}"
+	],
+	"description": "Hamburger Button"
+
+	}
+}
