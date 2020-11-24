@@ -1,0 +1,70 @@
+{
+	"Html with js": {
+		"prefix": "sc",
+		"body": [
+		  "<!DOCTYPE html>",
+		  "<html lang=\"en\">",
+		  "<head>",
+		  "    <meta charset=\"UTF-8\">",
+		  "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+		  "    <title>$1</title>",
+		  "    <link rel=\"stylesheet\" href=\"style.css\">", 
+		  "    $2",
+		  "</head>",
+			"",
+		  "<body>",
+		  "",
+		  "  $3  ",
+		  "",
+		  "</body>",
+		  "",
+		  "<script src=\"script.js\"></script>",
+		  "",
+		  "</html>"
+		],
+		"description": "Html with js"
+	  },
+
+	  "Html with css": {
+		"prefix": "st",
+		"body": [
+		  "<!DOCTYPE html>",
+		  "<html lang=\"en\">",
+			"<head>",
+			"    <meta charset=\"UTF-8\">",
+			"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+			"    <title>$1</title>",
+			"    <link rel=\"stylesheet\" href=\"style.css\">",
+			"    $2",
+			"</head>",
+			"<body>",
+			"",
+			"    $3",
+			"",
+			"</body>",
+		  "",
+		  "</html>"
+		],
+		"description": "Html with css"
+	  },
+
+	  "Font Awesome": {
+		"prefix": "f",
+		"body": [
+		  "<script defer src=\"https://use.fontawesome.com/releases/v5.12.0/js/all.js\"></script>"
+		],
+		"description": "Font Awesome"
+	  },
+
+	  "Hamburger Button": {
+		  "prefix": "hb",
+		  "body": [
+			"<div class=\"hamburger\">",
+			"",
+            "  <div class=\"bar\"></div>",
+			"",
+        	"</div>"
+		  ],
+		  "description": "Hamburger Button"
+	    }
+}
