@@ -32,7 +32,9 @@
 		"prefix": "arme",
 		"body": [
 		  "${1|forEach, map, filter, reduce, some|}((${2:item}) =>{",
+		  "",
 		  "      $3",
+		  "",
 		  "})"
 		],
 		"description": "Array Method"
@@ -40,13 +42,25 @@
 
 	  "Query Selector": {
 		  "prefix": "q",
-		  "body": "document.querySelector('$1')",
+		  "body": "document.querySelector(\"$1\")",
 		  "description": "Query Selector"
 	  },
 
 	  "Query Selector All": {
 		  "prefix": "qa",
-		  "body": "document.querySelectorAll('$1')",
+		  "body": "document.querySelectorAll(\"$1\")",
 		  "description": "Query Selector All"
+	  },
+
+	  "Add Event Listener": {
+		  "prefix": "ae",
+		  "body": [
+			  "$1.addEventListener(\"${1:click}\", () =>{",
+			"",
+			"    $3",
+			"",		 
+		 "})"
+		 ],
+		 "description": "Add Event listener"
 	  }
 }
