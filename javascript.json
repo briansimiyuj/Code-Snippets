@@ -35,9 +35,9 @@
 	  "Array Method": {
 		"prefix": "arme",
 		"body": [
-		  "${1|forEach, map, filter, reduce, some|}((${2:item}) =>{",
+       "$1.${2|forEach, map, filter, reduce, some|}((${3:item}) =>{",
 		  "",
-		  "      $3",
+		  "      $4",
 		  "",
 		  "})"
 		],
@@ -59,7 +59,7 @@
 	  "Add Event Listener": {
 		  "prefix": "ae",
 		  "body": [
-			  "$1.addEventListener(\"${1:click}\", () =>{",
+			"${1:element}.addEventListener(\"${1:click}\", () =>{",
 			"",
 			"    $3",
 			"",		 
