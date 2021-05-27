@@ -22,8 +22,12 @@
 		"prefix": "af",
 		"body": [
 		  "const ${1: functionName} = ($2) =>{",
+		  "",
 		  "       $3",
-		  "}"
+		  "}",
+		  "}",
+		  "",
+		  "${1:functionName}($4)"
 		],
 		"description": "Arrow Function"
 	  },
