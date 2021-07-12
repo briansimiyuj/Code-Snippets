@@ -45,14 +45,14 @@
 	  },
 
 	  "Query Selector": {
-		  "prefix": "q",
-		  "body": "document.querySelector(\"$1\")",
+		  "prefix": "c",
+		  "body": "const $1 = document.querySelector(\"${2|.,#|}$1\")",
 		  "description": "Query Selector"
 	  },
 
 	  "Query Selector All": {
-		  "prefix": "qa",
-		  "body": "document.querySelectorAll(\"$1\")",
+		  "prefix": "ca",
+		  "body": "const $1 = document.querySelectorAll(\"${2|.,#|}$1\")",
 		  "description": "Query Selector All"
 	  },
 
@@ -66,5 +66,17 @@
 		 "})"
 		 ],
 		 "description": "Add Event listener"
-	  }
+	  },
+
+	  "Document selector": {
+		"prefix": "q",
+		"body": "$1 = document.querySelector(\"${2|.,#|}$1\"),",
+		"description": "Document selector"
+	},
+
+	  "Document selector All": {
+		"prefix": "qa",
+		"body": "$1 = document.querySelectorAll(\"${2|.,#|}$1\"),",
+		"description": "Document selector"
+	},
 }
