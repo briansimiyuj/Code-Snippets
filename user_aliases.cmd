@@ -38,6 +38,7 @@ gba=git branch -a $
 gmb=git merge "$1"
 dc=git reset --hard "$1"
 grh=git reset --hard HEAD~"$1"
+grsf=git reset --soft HEAD~"$1"
 vs=code . 
 grs= git restore "$1"
 grst= git restore --staged "$1"
