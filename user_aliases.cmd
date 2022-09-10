@@ -46,4 +46,6 @@ gpul=git pull "$1" "$2"
 gr=git rebase -i HEAD~"$1"
 gd= git branch -D "$1"
 gca= git commit --amend -m "$1 $2 $3 $4 $5 $6 $7 $8 $9"
+gclu= git config --local user.name "Brian Simiyu"
+gcle=git config --local user.email "briansimiyuj@gmail.com" 
 cdr= alias /reload $
