@@ -50,4 +50,6 @@ gclu= git config --local user.name "Brian Simiyu"
 gcle=git config --local user.email "briansimiyuj@gmail.com"
 gcgu= git config --global user.name "Brian Simiyu"
 gcge=git config --global user.email "briansimiyuj@gmail.com" 
+grao= git remote add origin "$1"
+gpuo= git push -u origin master
 cdr= alias /reload $
