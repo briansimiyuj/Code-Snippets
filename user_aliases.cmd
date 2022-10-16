@@ -32,6 +32,7 @@ t=touch "$1"
 tsc=touch "script.js"
 ts=touch "style.css"
 ti=touch "index.html"
+tv= touch "video.txt"
 df=rmdir "$1"
 dffy=rmdir /S /Q "$1"
 gba=git branch -a $
