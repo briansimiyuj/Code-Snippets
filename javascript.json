@@ -5,6 +5,18 @@
 		"description": "Console Log"
 	}, 
 
+	"Console Log Working":{
+		"prefix": "cw",
+		"body": "console.log('working')",
+		"description": "Console Log Working"
+	},
+
+	"Console Log Perfect":{
+		"prefix": "cp",
+		"body": "console.log('perfect')",
+		"description": "Console Log Perfect"
+	},
+
 	"Name Function": {
 		"prefix": "f",
 		"body": [
