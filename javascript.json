@@ -80,6 +80,13 @@
 		 "description": "Add Event listener"
 	  },
 
+	  "Add Event Listener Linear":{
+
+		"prefix": "ael",
+		"body": "${1:element}.addEventListener(\"${2:click}\", ${3:functionName})",
+		"description": "Add Event listener Linear"
+	  },
+
 	  "Document selector": {
 		"prefix": "q",
 		"body": "$1 = document.querySelector(\"${2|.,#|}$1\"),",
