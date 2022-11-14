@@ -37,6 +37,7 @@ df=rmdir "$1"
 dffy=rmdir /S /Q "$1"
 gba=git branch -a $
 gmb=git merge "$1"
+gbd=git branch --delete "$1" 
 dc=git reset --hard "$1"
 grh=git reset --hard HEAD~"$1"
 grsf=git reset --soft HEAD~"$1"
