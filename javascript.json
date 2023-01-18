@@ -56,6 +56,17 @@
 		"description": "Arrow Function"
 	  },
 
+	  "Arrow Function Symbol":{
+        "prefix": "afs",
+		"body": ["=>{",
+		  "",
+		  "   $1",
+		  "",
+		  "}"	
+		],
+		"description": "Arrow Function Symbol"
+	  },
+
 	  "Array Method": {
 		"prefix": "arme",
 		"body": [
