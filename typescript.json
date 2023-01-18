@@ -72,8 +72,10 @@
 	  "Array Method": {
 		"prefix": "arme",
 		"body": [
-		  "${1|forEach, map, filter, reduce, some|}((${2:item}) =>{",
-		  "      $3",
+       "${1:|array}.${2|forEach, map, filter, reduce, some|}((${3:item}) =>{",
+		  "",
+		  "      $4",
+		  "",
 		  "})"
 		],
 		"description": "Array Method"
