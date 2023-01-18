@@ -93,30 +93,16 @@
 		  "description": "Query Selector All"
 	  },
 
-	  "Add Event Listener": {
-		  "prefix": "ael",
-		  "body": [
-			  "let $1  = document.querySelector('.$1')",
-			  "",
-			  "let $2  = document.querySelector('.$2')",
-			  "",
-			  "let $3  = document.querySelector('.$3')",
-			  "",
-			  "let $4  = document.querySelector('.$4')",
-
-		  "",
-		  "console.log($1, $2, $3, $4)",		  
-		  "",
-		  "$2.addEventListener('click', ${5:functionName})",
-		  "", 
-		  
-		  "function ${5:functionName}(){",
-			"",	
-			  "$1.classList.$6('${7:className}')",
-		  "",
-		  "}"
-		  ],
-		  "description": "Add Event Listener"
+		"Add Event Listener": {
+			"prefix": "ae",
+			"body": [
+				"${1:element}.addEventListener(\"${1:click}\", () =>{",
+				"",
+				"    $3",
+				"",		 
+			"})"
+			],
+			"description": "Add Event listener"
 		},
 
 		"Create Element": {
