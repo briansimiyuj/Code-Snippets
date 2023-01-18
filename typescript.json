@@ -46,6 +46,18 @@
 		"description": "Arrow Function"
 	  },
 
+	  "Arrow Function Only": {
+		"prefix": "afu",
+		"body": [
+		  "const ${1: functionName} = ($2) =>{",
+		  "",
+		  "   $3",
+		  "",
+		  "}"
+		],
+		"description": "Arrow Function"
+	  },
+
 	  "Array Method": {
 		"prefix": "arme",
 		"body": [
