@@ -81,6 +81,12 @@
 		"description": "Array Method"
 	  },
 
+	  "Add Event Listener Linear":{
+		"prefix": "ael",
+		"body": "${1:element}.addEventListener(\"${2:click}\", ${3:functionName})",
+		"description": "Add Event listener Linear"
+	  },
+
 	  "Query Selector": {
 		  "prefix": "q",
 		  "body": "document.querySelector('$1')",
