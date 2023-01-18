@@ -99,6 +99,12 @@
 		  "description": "Query Selector All"
 	  },
 
+	  "Class Lists":{
+		"prefix": "cll",
+		"body": "${1:element}.classList.${2|add,remove,toggle,contains|}(\"$3\")",
+		"description": "Class Lists"	
+	   },
+
 		"Add Event Listener": {
 			"prefix": "ae",
 			"body": [

@@ -120,5 +120,11 @@
 		"prefix": "qa",
 		"body": "$1 = document.querySelectorAll(\"${2|.,#|}$1\"),",
 		"description": "Document selector"
+	},
+
+	"Class Lists":{
+		"prefix": "cll",
+		"body": "${1:element}.classList.${2|add,remove,toggle,contains|}(\"$3\")",
+		"description": "Class Lists"	
 	}
 }
