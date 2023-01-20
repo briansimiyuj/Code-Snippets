@@ -132,5 +132,17 @@
 		"prefix": "ce",
 		"body": "const $1 = document.createElement(\"$1\")",
 		"description": "Create Element"
+	},
+
+	"New Promise":{
+		"prefix": "np",
+		"body": [			
+			"new Promise((resolve, reject) => {", 
+				"",
+				"    $1",
+				"",     
+			"})"
+		],
+		"description": "New Promise"
 	}
 }

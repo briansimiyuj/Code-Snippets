@@ -158,6 +158,18 @@
 			"prefix": "sat",
 			"body": "setAttribute('${1:attribute}', '${2:value}')",
 			"description": "Set Attribute"
+		},
+
+		"New Promise":{
+			"prefix": "np",
+			"body": [			
+				"new Promise((resolve, reject) => {", 
+					"",
+					"    $1",
+					"",     
+				"})"
+			],
+			"description": "New Promise"
 		}
 	
 	}
