@@ -126,5 +126,11 @@
 		"prefix": "cll",
 		"body": "${1:element}.classList.${2|add,remove,toggle,contains|}(\"$3\")",
 		"description": "Class Lists"	
+	},
+
+	"Create Element":{
+		"prefix": "ce",
+		"body": "const $1 = document.createElement(\"$1\")",
+		"description": "Create Element"
 	}
 }

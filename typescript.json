@@ -117,9 +117,9 @@
 			"description": "Add Event listener"
 		},
 
-		"Create Element": {
+		"Create Element":{
 			"prefix": "ce",
-			"body": "document.createElement('$1')",
+			"body": "const $1 = document.createElement(\"$1\")",
 			"description": "Create Element"
 		},
 
