@@ -13,6 +13,7 @@ clear=cls
 history=cat -n "%CMDER_ROOT%\config\.history"
 unalias=alias /d $1
 vi=vim $*
+mc= mkdir $1 && cd $1
 cmderr=cd /d "%CMDER_ROOT%"
 gs=git status $* 
 gad=git add .$
