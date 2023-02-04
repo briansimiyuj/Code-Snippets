@@ -1,0 +1,58 @@
+{
+
+    "terminal.integrated.defaultProfile.windows": "Cmder",
+
+    "terminal.integrated.profiles.windows": {
+        "Cmder": {
+            "name": "Cmder",
+
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+
+            "args": ["/k", "${env:cmder_root}\\vendor\\bin\\vscode_init.cmd"],
+            "icon": "terminal-cmd",
+            "color": "terminal.ansiGreen"
+        }
+    },
+
+
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "bash",
+
+            "args": [
+                "-l"
+            ],
+            
+            "icon": "terminal-bash"
+        },
+
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ]
+        },
+
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+        
+    }
+
+}

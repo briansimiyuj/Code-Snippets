@@ -1,0 +1,3 @@
+To integrate cmder as vscode as integrated terminal, do the following:
+
+    Open settings.json file in vscode and paste the code in settings.json in this repository
