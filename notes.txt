@@ -1,3 +1,12 @@
 To integrate cmder as vscode as integrated terminal, do the following:
 
     Open settings.json file in vscode and paste the code in settings.json in this repository
+
+
+To use cmder user aliases in vscode, do the following
+
+    Go to command pallete, look for tasks then configure tasks.
+
+    Choose create tasks.json file and select others
+
+   Then paste the user aliases from user_aliases.cmd under args 
