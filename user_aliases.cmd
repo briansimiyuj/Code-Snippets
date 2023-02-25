@@ -63,4 +63,5 @@ gv= git remote -v
 gpuo= git push -u origin master
 gpua= git push -u origin --all
 gpub= git push -u origin "$1"
+gpob= git push origin --delete "$1"
 cdr= alias /reload $
