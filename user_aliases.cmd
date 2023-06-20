@@ -19,6 +19,7 @@ gs=git status $*
 gad=git add .$
 gaf= git add "$1"
 gc=git commit -m "$1 $2 $3 $4 $5 $6 $7 $8 $9"
+gac= git commit -am "$1 $2 $3 $4 $5 $6 $7 $8 $9"
 gcl=git clone "$1" "test"
 gp=git push "$1" "$2 "
 gig=touch .gitignore $
