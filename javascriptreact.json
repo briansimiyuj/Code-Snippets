@@ -1,0 +1,19 @@
+{
+	"Stateless Arrow Function":{
+		"prefix": "saf",
+		"body": [
+			"const ${1:FunctionName} = ($2) =>{",
+				"",
+				"    return(",
+					"",
+					"        $3",
+					"",
+				"    )",
+			"",
+			"}",			 
+			"",
+			"export default ${1:FunctionName}"
+		],
+        "description": "Stateless Arrow Function"
+	}
+}
