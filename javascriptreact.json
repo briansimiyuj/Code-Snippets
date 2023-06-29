@@ -33,5 +33,49 @@
 			"export default ${1:FunctionName}"
 		],
 		"description":"Stateless Function"
-    }
+    },
+
+	"Name Function Only": {
+		"prefix": "f",
+		"body": [
+		  "function ${1:functionName}($2){",
+		  "",
+		  "   $3",
+		  "",
+		  "}"
+		  
+		],
+		"description": "Name Function"
+	},
+
+	"Arrow Function Only": {
+		"prefix": "af",
+		"body": [
+		  "const ${1: functionName} = ($2) =>{",
+		  "",
+		  "   $3",
+		  "",
+		  "}"
+		],
+		"description": "Arrow Function"
+	},
+
+	"Console Log":{
+		"prefix": "cl",
+		"body": "console.log($1)",
+		"description": "Console Log"
+	}, 
+
+	"Console Log Working":{
+		"prefix": "cw",
+		"body": "console.log('working')",
+		"description": "Console Log Working"
+	},
+
+	"Console Log Perfect":{
+		"prefix": "cp",
+		"body": "console.log('perfect')",
+		"description": "Console Log Perfect"
+	}
+
 }
