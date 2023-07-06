@@ -1,7 +1,1 @@
-To enable autocompletion in cmder, use the following command:
-
-    `clink set autosuggest.enable true`
-
-To disable, use the following command:
-
-    `clink set autosuggest.enable false`
+Find clink documentation on https://chrisant996.github.io/clink/clink.html
