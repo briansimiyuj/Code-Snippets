@@ -85,6 +85,17 @@
 		"description": "Arrow Function Async"
 	},
 
+	"Arrow Function Symbol":{
+        "prefix": "afs",
+		"body": ["=>{",
+		  "",
+		  "   $1",
+		  "",
+		  "}"	
+		],
+		"description": "Arrow Function Symbol"
+	},
+
 	"Console Log":{
 		"prefix": "cl",
 		"body": "console.log($1)",
