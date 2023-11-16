@@ -48,6 +48,19 @@
 		"description": "Name Function"
 	},
 
+	"Name Function Async": {
+		"prefix": "fa",
+		"body": [
+		  "async function ${1:functionName}($2){",
+		  "",
+		  "   $3",
+		  "",
+		  "}"
+		  
+		],
+		"description": "Name Function"
+	},
+
 	"Arrow Function Only": {
 		"prefix": "af",
 		"body": [
@@ -58,6 +71,18 @@
 		  "}"
 		],
 		"description": "Arrow Function"
+	},
+	
+	"Arrow Function Async": {
+		"prefix": "afa",
+		"body": [
+		  "const ${1: functionName} = async($2) =>{",
+		  "",
+		  "   $3",
+		  "",
+		  "}"
+		],
+		"description": "Arrow Function Async"
 	},
 
 	"Console Log":{
