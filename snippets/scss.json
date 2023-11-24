@@ -39,5 +39,25 @@
 			"}"
 		],
 		"description": "If Statement Else"
-    }
+    },
+
+	"Mixins":{
+		"prefix": "m",
+		"body":[
+			"@mixin $1{",
+			"    $2",
+			"}"
+		],
+		"description": "mixin"
+	},
+	
+	"Mixins function":{
+		"prefix": "mf",
+		"body":[
+			"@mixin $1(){",
+			"    $2",
+			"}"
+		],
+		"description": "mixins function"
+	}
 }
