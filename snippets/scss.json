@@ -11,5 +11,17 @@
 		  "$1"
 		],
 		"description": "Common css"
-    }  
+    },
+
+    "If Statement":{
+        "prefix": "if",
+		"body":[
+			"@if($1){",
+			"",
+			"     $2",
+			"",
+			"}"
+		],
+		"description": "If Statement"
+    }
 }
