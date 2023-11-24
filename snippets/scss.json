@@ -59,5 +59,15 @@
 			"}"
 		],
 		"description": "mixins function"
+	},
+
+	"Include":{
+		"prefix": "i",
+		"body":[
+			"@include $1{",
+			"   $2",
+			"}"
+		],
+		"description": "Include"
 	}
 }
