@@ -23,5 +23,21 @@
 			"}"
 		],
 		"description": "If Statement"
+    },
+
+    "If Statement Else":{
+        "prefix": "ife",
+		"body":[
+			"@if($1){",
+			"",
+			"     $2",
+			"",
+			"}@else{",
+			"",
+			"     $3",
+			"",
+			"}"
+		],
+		"description": "If Statement Else"
     }
 }
