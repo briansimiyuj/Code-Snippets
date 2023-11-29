@@ -17,7 +17,7 @@
 		"description": "Console Log"
 	}, 
 
-	"Name Function": {
+	"Name Function":{
 		"prefix": "f",
 		"body": [
 		  "function ${1:functionName}(${2:${3:parameter}:${4:type}}){",
@@ -32,7 +32,7 @@
 	},
 
 
-	"Arrow Function": {
+	"Arrow Function":{
 		"prefix": "af",
 		"body": [
 		  "const ${1:functionName} = (${2:${3:parameter}:${4:type}}) =>{",
@@ -47,7 +47,7 @@
 	},
 	  
 
-	"Arrow Function Only": {
+	"Arrow Function Only":{
 		"prefix": "afu",
 		"body": [
 		  "const ${1:functionName} = (${2:${3:parameter}:${4:type}}) =>{",
@@ -59,7 +59,7 @@
 		"description": "Arrow Function"
 	},
 
-	"Name Function Async": {
+	"Name Function Async":{
 		"prefix": "fa",
 		"body": [
 		  "async function ${1:functionName}(${2:${3:parameter}:${4:type}}) {",
@@ -71,7 +71,7 @@
 		"description": "Name Function Async"
 	},
 
-	"Arrow Function Async": {
+	"Arrow Function Async":{
 		"prefix": "afa",
 		"body": [
 		  "const ${1:functionName} = async (${2:${3:parameter}:${4:type}}) =>{",
@@ -112,13 +112,13 @@
 		"description": "Add Event listener Linear"
 	},
 
-	"Query Selector": {
+	"Query Selector":{
 		"prefix": "q",
 		"body": "document.querySelector('$1')",
 		"description": "Query Selector"
 	},
 
-	"Query Selector All": {
+	"Query Selector All":{
 		"prefix": "qa",
 		"body": "document.querySelectorAll('$1')",
 		"description": "Query Selector All"
@@ -130,7 +130,7 @@
 		"description": "Class Lists"	
 	},
 
-	"Add Event Listener": {
+	"Add Event Listener":{
 		"prefix": "ae",
 		"body": [
 			"${1:element}.addEventListener(\"${1:click}\", () =>{",
@@ -148,7 +148,7 @@
 		"description": "Create Element"
 	},
 
-	"bar": {
+	"bar":{
 		"prefix": "ba",
 		"body": [
 			"let bar = document.querySelector('.bar')",
@@ -173,7 +173,7 @@
 	
 	},
 
-	"getAttribute": {
+	"getAttribute":{
 		"prefix": "ga",
 		"body": "this.getAttribute('$1')",
 		"description": "Get Attribute"
@@ -188,7 +188,7 @@
 	"New Promise":{
 		"prefix": "np",
 		"body": [			
-			"new Promise((resolve, reject) => {", 
+			"new Promise((resolve, reject) =>{", 
 				"",
 				"    $1",
 				"",     
