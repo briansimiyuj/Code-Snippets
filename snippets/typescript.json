@@ -20,156 +20,181 @@
 	"Name Function": {
 		"prefix": "f",
 		"body": [
-		  "function ${1:functionName}($2){",
+		  "function ${1:functionName}(${2:${3:parameter}:${4:type}}){",
 		  "",
-		  "      $3",
+		  "  $5",
 		  "",
 		  "}",
-			"",
-		  "${1:functionName}($4)"
-		  
+		  "",
+		  "${1:functionName}($6)"
 		],
 		"description": "Name Function"
-	  },
+	},
 
-	  "Arrow Function": {
+
+	"Arrow Function": {
 		"prefix": "af",
 		"body": [
-		  "const ${1:functionName} = ($2) =>{",
+		  "const ${1:functionName} = (${2:${3:parameter}:${4:type}}) =>{",
 		  "",
-		  "       $3",
+		  "  $5",
 		  "",
-		  "}",
+		  "};",
 		  "",
-		  "${1:functionName}($4)"	
+		  "${1:functionName}($6)"
 		],
 		"description": "Arrow Function"
-	  },
+	},
+	  
 
-	  "Arrow Function Only": {
+	"Arrow Function Only": {
 		"prefix": "afu",
 		"body": [
-		  "const ${1: functionName} = ($2) =>{",
+		  "const ${1:functionName} = (${2:${3:parameter}:${4:type}}) =>{",
 		  "",
-		  "   $3",
+		  "  $5",
 		  "",
 		  "}"
 		],
 		"description": "Arrow Function"
-	  },
+	},
 
-	  "Arrow Function Symbol":{
-        "prefix": "afs",
+	"Name Function Async": {
+		"prefix": "fa",
+		"body": [
+		  "async function ${1:functionName}(${2:${3:parameter}:${4:type}}) {",
+		  "",
+		  "  $5",
+		  "",
+		  "}"
+		],
+		"description": "Name Function Async"
+	},
+
+	"Arrow Function Async": {
+		"prefix": "afa",
+		"body": [
+		  "const ${1:functionName} = async (${2:${3:parameter}:${4:type}}) =>{",
+		  "",
+		  "  $5",
+		  "",
+		  "};"
+		],
+		"description": "Arrow Function Async"
+	},
+
+	"Arrow Function Symbol":{
+		"prefix": "afs",
 		"body": ["=>{",
-		  "",
-		  "   $1",
-		  "",
-		  "}"	
+			"",
+			"   $1",
+			"",
+			"}"	
 		],
 		"description": "Arrow Function Symbol"
-	  },
+	},
 
-	  "Array Method": {
+	"Array Method":{
 		"prefix": "arme",
 		"body": [
-       "${1:|array}.${2|forEach, map, filter, reduce, some|}((${3:item}) =>{",
-		  "",
-		  "      $4",
-		  "",
-		  "})"
+		"${1:|array}.${2|forEach, map, filter, reduce, some|}((${3:item}) =>{",
+			"",
+			"      $4",
+			"",
+			"})"
 		],
 		"description": "Array Method"
-	  },
+	},
 
-	  "Add Event Listener Linear":{
+	"Add Event Listener Linear":{
 		"prefix": "ael",
 		"body": "${1:element}.addEventListener(\"${2:click}\", ${3:functionName})",
 		"description": "Add Event listener Linear"
-	  },
+	},
 
-	  "Query Selector": {
-		  "prefix": "q",
-		  "body": "document.querySelector('$1')",
-		  "description": "Query Selector"
-	  },
+	"Query Selector": {
+		"prefix": "q",
+		"body": "document.querySelector('$1')",
+		"description": "Query Selector"
+	},
 
-	  "Query Selector All": {
-		  "prefix": "qa",
-		  "body": "document.querySelectorAll('$1')",
-		  "description": "Query Selector All"
-	  },
+	"Query Selector All": {
+		"prefix": "qa",
+		"body": "document.querySelectorAll('$1')",
+		"description": "Query Selector All"
+	},
 
-	  "Class Lists":{
+	"Class Lists":{
 		"prefix": "cll",
 		"body": "${1:element}.classList.${2|add,remove,toggle,contains|}(\"$3\")",
 		"description": "Class Lists"	
-	   },
+	},
 
-		"Add Event Listener": {
-			"prefix": "ae",
-			"body": [
-				"${1:element}.addEventListener(\"${1:click}\", () =>{",
-				"",
-				"    $3",
-				"",		 
-			"})"
-			],
-			"description": "Add Event listener"
-		},
+	"Add Event Listener": {
+		"prefix": "ae",
+		"body": [
+			"${1:element}.addEventListener(\"${1:click}\", () =>{",
+			"",
+			"    $3",
+			"",		 
+		"})"
+		],
+		"description": "Add Event listener"
+	},
 
-		"Create Element":{
-			"prefix": "ce",
-			"body": "const $1 = document.createElement(\"$1\")",
-			"description": "Create Element"
-		},
+	"Create Element":{
+		"prefix": "ce",
+		"body": "const $1 = document.createElement(\"$1\")",
+		"description": "Create Element"
+	},
 
-		"bar": {
-			"prefix": "ba",
-			"body": [
-			 "let bar = document.querySelector('.bar')",
-			"",
-			"let menuToggler = document.querySelector('.menuToggler')",
-			"",
-			"console.log(bar, menuToggler)",
-			"",
-			"menuToggler.addEventListener('click', $1)",
-			"",
-			"",
-			"function $1(){",
-			"", 
-				  "      console.log('working')",
-			"",
-				 "       bar.classList.toggle(\"$1\")",
-			"",
-            "}"
-            			
-			],
-			"description": "bar"
-		
-		},
-
-		"getAttribute": {
-			"prefix": "ga",
-			"body": "this.getAttribute('$1')",
-			"description": "Get Attribute"
-		}, 
-
-		"setAttribute":{
-			"prefix": "sat",
-			"body": "setAttribute('${1:attribute}', '${2:value}')",
-			"description": "Set Attribute"
-		},
-
-		"New Promise":{
-			"prefix": "np",
-			"body": [			
-				"new Promise((resolve, reject) => {", 
-					"",
-					"    $1",
-					"",     
-				"})"
-			],
-			"description": "New Promise"
-		}
+	"bar": {
+		"prefix": "ba",
+		"body": [
+			"let bar = document.querySelector('.bar')",
+		"",
+		"let menuToggler = document.querySelector('.menuToggler')",
+		"",
+		"console.log(bar, menuToggler)",
+		"",
+		"menuToggler.addEventListener('click', $1)",
+		"",
+		"",
+		"function $1(){",
+		"", 
+				"      console.log('working')",
+		"",
+				"       bar.classList.toggle(\"$1\")",
+		"",
+		"}"
+					
+		],
+		"description": "bar"
 	
+	},
+
+	"getAttribute": {
+		"prefix": "ga",
+		"body": "this.getAttribute('$1')",
+		"description": "Get Attribute"
+	}, 
+
+	"setAttribute":{
+		"prefix": "sat",
+		"body": "setAttribute('${1:attribute}', '${2:value}')",
+		"description": "Set Attribute"
+	},
+
+	"New Promise":{
+		"prefix": "np",
+		"body": [			
+			"new Promise((resolve, reject) => {", 
+				"",
+				"    $1",
+				"",     
+			"})"
+		],
+		"description": "New Promise"
 	}
+
+}
