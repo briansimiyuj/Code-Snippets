@@ -112,16 +112,28 @@
 		"description": "Add Event listener Linear"
 	},
 
-	"Query Selector":{
-		"prefix": "q",
-		"body": "document.querySelector('$1')",
+	"Query Selector": {
+		"prefix": "c",
+		"body": "const $1 = document.querySelector(\"${2|.,#|}$1\") as $3",
 		"description": "Query Selector"
 	},
 
-	"Query Selector All":{
-		"prefix": "qa",
-		"body": "document.querySelectorAll('$1')",
+	"Query Selector All": {
+		"prefix": "ca",
+		"body": "const $1 = document.querySelectorAll(\"${2|.,#|}$1\") as $3",
 		"description": "Query Selector All"
+	},
+
+	"Query Selectors":{
+		"prefix": "q",
+		"body": "$1 document.querySelector(\"${2|.,#|}$1\") as $3",
+		"description": "Query Selectors"
+	},
+
+	"Query Selectors All":{
+		"prefix": "qa",
+		"body": "$1 document.querySelectorAll(\"${2|.,#|}$1\") as $3",
+		"description": "Query Selectors All"
 	},
 
 	"Class Lists":{
