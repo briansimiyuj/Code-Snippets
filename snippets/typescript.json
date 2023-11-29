@@ -17,7 +17,7 @@
 		"description": "Console Log"
 	}, 
 
-	"Name Function":{
+	"Name Function": {
 		"prefix": "f",
 		"body": [
 		  "function ${1:functionName}(${2:${3:parameter}:${4:type}}){",
@@ -46,7 +46,6 @@
 		"description": "Arrow Function"
 	},
 	  
-
 	"Arrow Function Only":{
 		"prefix": "afu",
 		"body": [
