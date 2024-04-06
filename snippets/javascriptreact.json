@@ -118,6 +118,18 @@
 		"prefix": "ust",
 		"body": "const [${1:first}, set${2:$1}] = useState($3)",
 		"description": "useState"
+	},
+
+	"useEffect":{
+		"prefix": "use",
+		"body":[
+			"useEffect(() =>{",
+			"",
+			"   $1",
+			"",
+			"}, [$2])"
+		],
+		"description": "useEffect"
 	}
 
 }
