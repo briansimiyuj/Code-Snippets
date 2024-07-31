@@ -2,17 +2,17 @@
 	"Stateless Arrow Function":{
 		"prefix": "saf",
 		"body": [
-			"const ${1:FunctionName} = ($2) =>{",
+			"const ${TM_FILENAME_BASE} = ($1) => {",
 				"",
 				"    return(",
 					"",
-					"        $3",
+					"        ${2:<h1>${TM_FILENAME_BASE}</h1>}",
 					"",
 				"    )",
 			"",
 			"}",			 
 			"",
-			"export default ${1:FunctionName}"
+			"export default ${TM_FILENAME_BASE}"
 		],
         "description": "Stateless Arrow Function"
 	},
@@ -20,17 +20,17 @@
     "Stateless function":{
         "prefix": "sf",
         "body":[
-			"function ${1:FunctionName}($2){",
+			"function ${TM_FILENAME_BASE}($1){",
 			"",
 			"    return(",
 				 "",
-				 "         $3",
+				 "         ${2:<h1>${TM_FILENAME_BASE}</h1>}",
 				 "",
 				 ")",
 			"",
 			"}",
 			"",
-			"export default ${1:FunctionName}"
+			"export default ${TM_FILENAME_BASE}"
 		],
 		"description":"Stateless Function"
     },
