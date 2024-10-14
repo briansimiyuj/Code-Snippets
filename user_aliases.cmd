@@ -71,6 +71,7 @@ gstc= git stash clear
 gpul=git pull "$1" "$2"
 gr=git rebase -i HEAD~"$1"
 grc=git rebase -i "$1"
+grcr=git rebase -i --root
 grco=git rebase --continue
 grca=git rebase --abort
 grcs=git rebase --skip
