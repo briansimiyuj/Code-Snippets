@@ -1,0 +1,133 @@
+{
+    "Stateless Arrow Function":{
+        "prefix": "saf",
+        "body":[
+            "const ${TM_FILENAME_BASE}: React.FC<${1}> = (${2})=>{",
+            "",
+            "    return(",
+            "",
+            "        ${3:<h1>${TM_FILENAME_BASE}</h1>}",
+            "",
+            "    )",
+            "",
+            "}",
+            "",
+            "export default ${TM_FILENAME_BASE}"
+        ],
+        "description": "Stateless Arrow Function"
+    },
+
+    "Stateless function":{
+        "prefix": "sf",
+        "body":[
+            "function ${TM_FILENAME_BASE}(${1}: ${2}): JSX.Element{",
+            "",
+            "  return(",
+            "",
+            "    ${3:<h1>${TM_FILENAME_BASE}</h1>}",
+            "",
+            "  )",
+            "}",
+            "",
+            "",
+            "export default ${TM_FILENAME_BASE}"
+        ],
+        "description": "Stateless Function"
+    },
+
+    "Name Function Only":{
+        "prefix": "f",
+        "body":[
+            "function ${1:functionName}(${2}): ${3}{",
+            "",
+            "   ${4}",
+            "",
+            "}"
+        ],
+        "description": "Name Function"
+    },
+
+    "Name Function Async":{
+        "prefix": "fa",
+        "body":[
+            "async function ${1:functionName}(${2}): Promise<${3}>{",
+            "",
+            "   ${4}",
+            "",
+            "}"
+        ],
+        "description": "Name Function Async"
+    },
+
+    "Arrow Function Only":{
+        "prefix": "af",
+        "body":[
+            "const ${1: functionName} = (${2}): ${3} =>{",
+            "",
+            "   ${4}",
+            "",
+            "}"
+        ],
+        "description": "Arrow Function"
+    },
+
+    "Arrow Function Async":{
+        "prefix": "afa",
+        "body":[
+            "const ${1: functionName} = async(${2}): Promise<${3}> =>{",
+            "",
+            "   ${4}",
+            "",
+            "}"
+        ],
+        "description": "Arrow Function Async"
+    },
+
+    "Arrow Function Symbol":{
+        "prefix": "afs",
+        "body":[
+            "const ${1: functionName} = (${2}): ${3} =>{",
+            "",
+            "   ${4}",
+            "",
+            "}"
+        ],
+        "description": "Arrow Function Symbol"
+    },
+
+    "Console Log":{
+        "prefix": "cl",
+        "body": "console.log($1)",
+        "description": "Console Log"
+    },
+
+    "Console Log Working":{
+        "prefix": "cw",
+        "body": "console.log('working')",
+        "description": "Console Log Working"
+    },
+
+    "Console Log Perfect":{
+        "prefix": "cp",
+        "body": "console.log('perfect')",
+        "description": "Console Log Perfect"
+    },
+
+    "useState":{
+        "prefix": "ust",
+        "body": "const [${1:first}, set${2:$1}] = useState<${3}>(${4})",
+        "description": "useState"
+    },
+
+    "useEffect":{
+        "prefix": "use",
+        "body":[
+            "useEffect(() =>{",
+            "",
+            "   ${1}",
+            "",
+            "}, [${2}])"
+        ],
+        "description": "useEffect"
+    }
+}
