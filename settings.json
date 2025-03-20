@@ -53,6 +53,17 @@
             "icon": "terminal-powershell"
         }
         
+    },
+
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "files.autoSave": "afterDelay",
+
+    "files.exclude":{
+
+        "**/node_modules": true,
+        "**/package-lock.json": true
+
     }
 
 }
