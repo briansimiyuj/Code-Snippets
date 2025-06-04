@@ -129,5 +129,18 @@
             "}, [${2}])"
         ],
         "description": "useEffect"
-    }
+    },
+
+    "Custom Hook":{
+		"prefix": "ch",
+		"body":[
+			"export ${1:use${TM_FILENAME_BASE}} = (${2}) =>{",
+			"",
+			"    ${3}",
+			"",
+			"}",
+			""
+		],
+		"description": "Custom Hook"
+	}
 }
