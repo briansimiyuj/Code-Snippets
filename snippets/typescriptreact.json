@@ -142,5 +142,12 @@
 			""
 		],
 		"description": "Custom Hook"
-	}
+	},
+
+    "ENV Variable":{
+        "prefix": "en",
+        "body": "import.meta.env.VITE_DEV_MODE === \"true\" ? true : false",
+        "description": "ENV Variable"
+    }
+    
 }
