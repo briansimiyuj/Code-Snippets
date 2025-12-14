@@ -1,0 +1,567 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#       102.54.94.97    rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#   127.0.0.1       localhost
+#   ::1             localhost
+
+# Block VPN providers
+127.0.0.1 nordvpn.com
+127.0.0.1 www.nordvpn.com
+127.0.0.1 expressvpn.com
+127.0.0.1 www.expressvpn.com
+127.0.0.1 protonvpn.com
+127.0.0.1 www.protonvpn.com
+127.0.0.1 surfshark.com
+127.0.0.1 www.surfshark.com
+127.0.0.1 cyberghostvpn.com
+127.0.0.1 www.cyberghostvpn.com
+127.0.0.1 privateinternetaccess.com
+127.0.0.1 www.privateinternetaccess.com
+127.0.0.1 mullvad.net
+127.0.0.1 www.mullvad.net
+127.0.0.1 tunnelbear.com
+127.0.0.1 www.tunnelbear.com
+127.0.0.1 ipvanish.com
+127.0.0.1 www.ipvanish.com
+127.0.0.1 vyprvpn.com
+127.0.0.1 www.vyprvpn.com
+127.0.0.1 windscribe.com
+127.0.0.1 www.windscribe.com
+127.0.0.1 hotspotshield.com
+127.0.0.1 www.hotspotshield.com
+127.0.0.1 hidemyass.com
+127.0.0.1 www.hidemyass.com
+127.0.0.1 torguard.net
+127.0.0.1 www.torguard.net
+127.0.0.1 purevpn.com
+127.0.0.1 www.purevpn.com
+127.0.0.1 privatevpn.com
+127.0.0.1 www.privatevpn.com
+127.0.0.1 ivacy.com
+127.0.0.1 www.ivacy.com
+127.0.0.1 zenmate.com
+127.0.0.1 www.zenmate.com
+127.0.0.1 astrill.com
+127.0.0.1 www.astrill.com
+127.0.0.1 strongvpn.com
+127.0.0.1 www.strongvpn.com
+127.0.0.1 turbovpn.com
+127.0.0.1 www.turbovpn.com
+127.0.0.1 turbovpn.co
+127.0.0.1 www.turbovpn.co
+127.0.0.1 apps.microsoft.com
+127.0.0.1 store.microsoft.com
+127.0.0.1 urban-vpn.com
+127.0.0.1 www.urban-vpn.com
+127.0.0.1 atlasvpn.com
+127.0.0.1 www.atlasvpn.com
+127.0.0.1 ivpn.net
+127.0.0.1 www.ivpn.net
+127.0.0.1 ipredator.se
+127.0.0.1 www.ipredator.se
+127.0.0.1 wevpn.com
+127.0.0.1 www.wevpn.com
+127.0.0.1 hide.me
+127.0.0.1 www.hide.me
+127.0.0.1 perfect-privacy.com
+127.0.0.1 www.perfect-privacy.com
+127.0.0.1 fastestvpn.com
+127.0.0.1 www.fastestvpn.com
+127.0.0.1 hideallip.com
+127.0.0.1 www.hideallip.com
+127.0.0.1 hma.com
+127.0.0.1 www.hma.com
+127.0.0.1 cactusvpn.com
+127.0.0.1 www.cactusvpn.com
+127.0.0.1 safervpn.com
+127.0.0.1 www.safervpn.com
+127.0.0.1 airvpn.org
+127.0.0.1 www.airvpn.org
+127.0.0.1 betternet.co
+127.0.0.1 www.betternet.co
+127.0.0.1 www.turbovpn.co
+127.0.0.1 apps.microsoft.com
+127.0.0.1 store.microsoft.com
+127.0.0.1 urban-vpn.com
+127.0.0.1 www.urban-vpn.com
+
+# Block Avira VPN
+127.0.0.1 avira.com
+127.0.0.1 www.avira.com
+127.0.0.1 vpn.avira.com
+127.0.0.1 www.vpn.avira.com
+127.0.0.1 phantom.avira.com
+127.0.0.1 www.phantom.avira.com
+127.0.0.1 avira-vpn.com
+127.0.0.1 www.avira-vpn.com
+127.0.0.1 my.avira.com
+127.0.0.1 download.avira.com
+
+# Block AI Chat Sites
+127.0.0.1 character.ai
+127.0.0.1 www.character.ai
+127.0.0.1 beta.character.ai
+127.0.0.1 replika.com
+127.0.0.1 www.replika.com
+127.0.0.1 replika.ai
+127.0.0.1 www.replika.ai
+127.0.0.1 crushon.ai
+127.0.0.1 www.crushon.ai
+127.0.0.1 janitorai.com
+127.0.0.1 www.janitorai.com
+127.0.0.1 spicychat.ai
+127.0.0.1 www.spicychat.ai
+127.0.0.1 chai.ml
+127.0.0.1 www.chai.ml
+127.0.0.1 talkie-ai.com
+127.0.0.1 www.talkie-ai.com
+127.0.0.1 sakura.fm
+127.0.0.1 www.sakura.fm
+127.0.0.1 kindroid.ai
+127.0.0.1 www.kindroid.ai
+127.0.0.1 nomi.ai
+127.0.0.1 www.nomi.ai
+127.0.0.1 botify.ai
+127.0.0.1 www.botify.ai
+# Block EON VPN
+127.0.0.1 eonvpn.com
+127.0.0.1 www.eonvpn.com
+
+# Block Additional Popular VPNs
+127.0.0.1 keepsolid.com
+127.0.0.1 www.keepsolid.com
+127.0.0.1 vpnunlimited.com
+127.0.0.1 www.vpnunlimited.com
+127.0.0.1 opera.com
+127.0.0.1 www.opera.com
+127.0.0.1 operavpn.com
+127.0.0.1 www.operavpn.com
+127.0.0.1 avg.com
+127.0.0.1 www.avg.com
+127.0.0.1 avast.com
+127.0.0.1 www.avast.com
+127.0.0.1 getoutline.org
+127.0.0.1 www.getoutline.org
+127.0.0.1 psiphon.ca
+127.0.0.1 www.psiphon.ca
+127.0.0.1 psiphon3.com
+127.0.0.1 www.psiphon3.com
+127.0.0.1 lantern.io
+127.0.0.1 www.lantern.io
+127.0.0.1 getlantern.org
+127.0.0.1 www.getlantern.org
+127.0.0.1 proxysite.com
+127.0.0.1 www.proxysite.com
+127.0.0.1 kproxy.com
+127.0.0.1 www.kproxy.com
+127.0.0.1 hola.org
+127.0.0.1 www.hola.org
+127.0.0.1 holavpn.com
+127.0.0.1 www.holavpn.com
+127.0.0.1 ultrasurf.us
+127.0.0.1 www.ultrasurf.us
+127.0.0.1 freedome.com
+127.0.0.1 www.freedome.com
+127.0.0.1 f-secure.com
+127.0.0.1 www.f-secure.com
+127.0.0.1 kaspersky.com
+127.0.0.1 www.kaspersky.com
+127.0.0.1 bitdefender.com
+127.0.0.1 www.bitdefender.com
+127.0.0.1 mcafee.com
+127.0.0.1 www.mcafee.com
+127.0.0.1 norton.com
+127.0.0.1 www.norton.com
+127.0.0.1 stackpath.com
+127.0.0.1 www.stackpath.com
+127.0.0.1 securevpn.com
+127.0.0.1 www.securevpn.com
+127.0.0.1 speedify.com
+127.0.0.1 www.speedify.com
+
+# Block More VPNs (Free & Popular)
+127.0.0.1 supervpn.net
+127.0.0.1 www.supervpn.net
+127.0.0.1 supervpnfree.com
+127.0.0.1 www.supervpnfree.com
+127.0.0.1 proxpn.com
+127.0.0.1 www.proxpn.com
+127.0.0.1 securitykiss.com
+127.0.0.1 www.securitykiss.com
+127.0.0.1 vpnbook.com
+127.0.0.1 www.vpnbook.com
+127.0.0.1 vpngate.net
+127.0.0.1 www.vpngate.net
+127.0.0.1 freevpn.org
+127.0.0.1 www.freevpn.org
+127.0.0.1 freevpnplanet.com
+127.0.0.1 www.freevpnplanet.com
+127.0.0.1 hideninja.com
+127.0.0.1 www.hideninja.com
+127.0.0.1 touchvpn.net
+127.0.0.1 www.touchvpn.net
+127.0.0.1 melon-vpn.com
+127.0.0.1 www.melon-vpn.com
+127.0.0.1 thundervpn.com
+127.0.0.1 www.thundervpn.com
+127.0.0.1 supervpn.com
+127.0.0.1 www.supervpn.com
+127.0.0.1 freevpn.me
+127.0.0.1 www.freevpn.me
+127.0.0.1 vpnjantit.com
+127.0.0.1 www.vpnjantit.com
+127.0.0.1 tuxlervpn.com
+127.0.0.1 www.tuxlervpn.com
+127.0.0.1 socksvpn.com
+127.0.0.1 www.socksvpn.com
+127.0.0.1 x-vpn.com
+127.0.0.1 www.x-vpn.com
+127.0.0.1 xvpn.io
+127.0.0.1 www.xvpn.io
+127.0.0.1 1clickvpn.com
+127.0.0.1 www.1clickvpn.com
+127.0.0.1 anonymousvpn.org
+127.0.0.1 www.anonymousvpn.org
+127.0.0.1 cyberghost.com
+127.0.0.1 www.cyberghost.com
+127.0.0.1 proxify.com
+127.0.0.1 www.proxify.com
+127.0.0.1 protonmail.com
+127.0.0.1 www.protonmail.com
+127.0.0.1 riseup.net
+127.0.0.1 www.riseup.net
+127.0.0.1 calyx.net
+127.0.0.1 www.calyx.net
+
+# Block VPN Apps/Services
+127.0.0.1 softether.org
+127.0.0.1 www.softether.org
+127.0.0.1 openvpn.net
+127.0.0.1 www.openvpn.net
+127.0.0.1 wireguard.com
+127.0.0.1 www.wireguard.com
+127.0.0.1 tailscale.com
+127.0.0.1 www.tailscale.com
+127.0.0.1 zerotier.com
+127.0.0.1 www.zerotier.com
+127.0.0.1 hamachi.com
+127.0.0.1 www.hamachi.com
+127.0.0.1 logmein.com
+127.0.0.1 www.logmein.com
+127.0.0.1 radmin-vpn.com
+127.0.0.1 www.radmin-vpn.com
+
+# Block Tor & Anonymity Tools
+127.0.0.1 torproject.org
+127.0.0.1 www.torproject.org
+127.0.0.1 torbrowser.org
+127.0.0.1 www.torbrowser.org
+127.0.0.1 torguard.com
+127.0.0.1 www.torguard.com
+127.0.0.1 i2p.net
+127.0.0.1 www.i2p.net
+127.0.0.1 geti2p.net
+127.0.0.1 www.geti2p.net
+127.0.0.1 freenet.org
+127.0.0.1 www.freenet.org
+
+# Block VPN Review/Download Sites
+127.0.0.1 vpnmentor.com
+127.0.0.1 www.vpnmentor.com
+127.0.0.1 top10vpn.com
+127.0.0.1 www.top10vpn.com
+127.0.0.1 bestvpn.com
+127.0.0.1 www.bestvpn.com
+127.0.0.1 vpnpro.com
+127.0.0.1 www.vpnpro.com
+127.0.0.1 comparitech.com
+127.0.0.1 www.comparitech.com
+127.0.0.1 thebestvpn.com
+127.0.0.1 www.thebestvpn.com
+127.0.0.1 vpnranks.com
+127.0.0.1 www.vpnranks.com
+
+# Block More Regional/Mobile VPNs
+127.0.0.1 setupvpn.com
+127.0.0.1 www.setupvpn.com
+127.0.0.1 dotpn.com
+127.0.0.1 www.dotpn.com
+127.0.0.1 rocket-vpn.com
+127.0.0.1 www.rocket-vpn.com
+127.0.0.1 uforvpn.com
+127.0.0.1 www.uforvpn.com
+127.0.0.1 viatunnel.com
+127.0.0.1 www.viatunnel.com
+127.0.0.1 anonvpn.io
+127.0.0.1 www.anonvpn.io
+127.0.0.1 limevpn.com
+127.0.0.1 www.limevpn.com
+127.0.0.1 applevpn.com
+127.0.0.1 www.applevpn.com
+127.0.0.1 spaceship.com
+
+# PrivadoVPN
+127.0.0.1 privadovpn.com
+127.0.0.1 www.privadovpn.com
+
+# EventVPN (ExpressVPN's free service)
+127.0.0.1 eventvpn.com
+127.0.0.1 www.eventvpn.com
+
+# Planet VPN
+127.0.0.1 freevpnplanet.com
+127.0.0.1 www.freevpnplanet.com
+127.0.0.1 planetvpn.net
+127.0.0.1 www.planetvpn.net
+
+# VeePN
+127.0.0.1 veepn.com
+127.0.0.1 www.veepn.com
+127.0.0.1 veepn.pro
+127.0.0.1 www.veepn.pro
+
+# Atlas VPN (already have atlasvpn but adding alternates)
+127.0.0.1 getatlasvpn.com
+127.0.0.1 www.getatlasvpn.com
+
+# VPN Proxy Master
+127.0.0.1 vpnproxymaster.com
+127.0.0.1 www.vpnproxymaster.com
+
+# SkyVPN
+127.0.0.1 skyvpn.net
+127.0.0.1 www.skyvpn.net
+127.0.0.1 skyvpn.com
+127.0.0.1 www.skyvpn.com
+
+# Snap VPN
+127.0.0.1 snapvpn.com
+127.0.0.1 www.snapvpn.com
+
+# VPN 360
+127.0.0.1 vpn360.com
+127.0.0.1 www.vpn360.com
+
+# 360 Secure VPN
+127.0.0.1 360securevpn.com
+127.0.0.1 www.360securevpn.com
+
+# Yoga VPN
+127.0.0.1 yogavpn.com
+127.0.0.1 www.yogavpn.com
+
+# TapVPN
+127.0.0.1 tapvpn.net
+127.0.0.1 www.tapvpn.net
+
+# Secure VPN
+127.0.0.1 securevpn.com
+127.0.0.1 www.securevpn.com
+
+# GhostVPN
+127.0.0.1 ghostvpn.com
+127.0.0.1 www.ghostvpn.com
+
+# Fast VPN
+127.0.0.1 fastvpn.com
+127.0.0.1 www.fastvpn.com
+
+# Rocket VPN (additional domains)
+127.0.0.1 rocketvpn.com
+127.0.0.1 www.rocketvpn.com
+
+# Turbo VPN Pro
+127.0.0.1 turbovpnpro.com
+127.0.0.1 www.turbovpnpro.com
+
+# VPN Master
+127.0.0.1 vpnmaster.com
+127.0.0.1 www.vpnmaster.com
+127.0.0.1 vpnmasterapp.com
+127.0.0.1 www.vpnmasterapp.com
+
+# Flash VPN
+127.0.0.1 flashvpn.com
+127.0.0.1 www.flashvpn.com
+
+# Solo VPN
+127.0.0.1 solovpn.com
+127.0.0.1 www.solovpn.com
+
+# Power VPN
+127.0.0.1 powervpn.net
+127.0.0.1 www.powervpn.net
+
+# Fast Secure VPN
+127.0.0.1 fastsecurevpn.com
+127.0.0.1 www.fastsecurevpn.com
+
+# Seed4.Me VPN
+127.0.0.1 seed4.me
+127.0.0.1 www.seed4.me
+
+# GooseVPN
+127.0.0.1 goosevpn.com
+127.0.0.1 www.goosevpn.com
+
+# Trust.Zone
+127.0.0.1 trust.zone
+127.0.0.1 www.trust.zone
+
+# VPN.ht
+127.0.0.1 vpn.ht
+127.0.0.1 www.vpn.ht
+
+# VPN Area
+127.0.0.1 vpnarea.com
+127.0.0.1 www.vpnarea.com
+
+# VPN.ac
+127.0.0.1 vpn.ac
+127.0.0.1 www.vpn.ac
+
+# Azire VPN
+127.0.0.1 azirevpn.com
+127.0.0.1 www.azirevpn.com
+
+# OVPN
+127.0.0.1 ovpn.com
+127.0.0.1 www.ovpn.com
+
+# Boleh VPN
+127.0.0.1 bolehvpn.net
+127.0.0.1 www.bolehvpn.net
+
+# SlickVPN
+127.0.0.1 slickvpn.com
+127.0.0.1 www.slickvpn.com
+
+# Trust VPN
+127.0.0.1 trustvpn.com
+127.0.0.1 www.trustvpn.com
+
+# Encrypt.me
+127.0.0.1 encrypt.me
+127.0.0.1 www.encrypt.me
+
+# VyprVPN (additional domains)
+127.0.0.1 vyprvpn.net
+127.0.0.1 www.vyprvpn.net
+
+# StrongVPN (additional)
+127.0.0.1 strong-vpn.com
+127.0.0.1 www.strong-vpn.com
+
+# VPN Unlimited (KeepSolid - additional domains)
+127.0.0.1 keepsolidvpn.com
+127.0.0.1 www.keepsolidvpn.com
+
+# Android/Mobile-Specific VPNs
+127.0.0.1 freevpn.ninja
+127.0.0.1 www.freevpn.ninja
+127.0.0.1 supervpn.mobi
+127.0.0.1 www.supervpn.mobi
+127.0.0.1 cloudvpn.com
+127.0.0.1 www.cloudvpn.com
+127.0.0.1 startvpn.com
+127.0.0.1 www.startvpn.com
+
+# Browser Extension VPNs
+127.0.0.1 browsec.com
+127.0.0.1 www.browsec.com
+127.0.0.1 dotvpn.com
+127.0.0.1 www.dotvpn.com
+127.0.0.1 hoxx.com
+127.0.0.1 www.hoxx.com
+127.0.0.1 frigate.com
+127.0.0.1 www.frigate.com
+
+# Smart DNS/Proxy Services (Often used to bypass restrictions)
+127.0.0.1 smartdnsproxy.com
+127.0.0.1 www.smartdnsproxy.com
+127.0.0.1 unlocator.com
+127.0.0.1 www.unlocator.com
+127.0.0.1 getflix.com
+127.0.0.1 www.getflix.com
+127.0.0.1 unotelly.com
+127.0.0.1 www.unotelly.com
+127.0.0.1 simpletelly.com
+127.0.0.1 www.simpletelly.com
+127.0.0.1 overplay.net
+127.0.0.1 www.overplay.net
+
+# Proxy Sites (commonly used to bypass blocks)
+127.0.0.1 hidemyass.com
+127.0.0.1 www.hidemyass.com
+127.0.0.1 proxfree.com
+127.0.0.1 www.proxfree.com
+127.0.0.1 filterbypass.me
+127.0.0.1 www.filterbypass.me
+127.0.0.1 hidester.com
+127.0.0.1 www.hidester.com
+127.0.0.1 whoer.net
+127.0.0.1 www.whoer.net
+127.0.0.1 anonymouse.org
+127.0.0.1 www.anonymouse.org
+127.0.0.1 megaproxy.com
+127.0.0.1 www.megaproxy.com
+127.0.0.1 newipnow.com
+127.0.0.1 www.newipnow.com
+
+# VPN Review/Comparison Sites (where users discover new VPNs)
+127.0.0.1 vpnmentor.com
+127.0.0.1 www.vpnmentor.com
+127.0.0.1 top10vpn.com
+127.0.0.1 www.top10vpn.com
+127.0.0.1 vpnpro.com
+127.0.0.1 www.vpnpro.com
+127.0.0.1 thebestvpn.com
+127.0.0.1 www.thebestvpn.com
+127.0.0.1 bestvpn.org
+127.0.0.1 www.bestvpn.org
+127.0.0.1 comparitech.com
+127.0.0.1 www.comparitech.com
+127.0.0.1 vpnranks.com
+127.0.0.1 www.vpnranks.com
+
+# Additional Tor/Anonymity Tools
+127.0.0.1 bridges.torproject.org
+127.0.0.1 www.bridges.torproject.org
+127.0.0.1 snowflake.torproject.org
+127.0.0.1 www.snowflake.torproject.org
+127.0.0.1 eduvpn.org
+127.0.0.1 www.eduvpn.org
+127.0.0.1 brightvpn.com
+127.0.0.1 www.brightvpn.com
+
+# Remote Access Tools (sometimes used as VPN alternatives)
+127.0.0.1 anydesk.com
+127.0.0.1 www.anydesk.com
+127.0.0.1 teamviewer.com
+127.0.0.1 www.teamviewer.com
+127.0.0.1 nomachine.com
+127.0.0.1 www.nomachine.com
+
+# Add these lines:
+127.0.0.1 mozilla.org      # Firefox VPN
+127.0.0.1 vpn.mozilla.org
+127.0.0.1 *.1.1.1.1        # Cloudflare WARP
+127.0.0.1 warp.cloudflare.com
+127.0.0.1 adguard.com      # AdGuard VPN
+127.0.0.1 vpn.adguard.com
