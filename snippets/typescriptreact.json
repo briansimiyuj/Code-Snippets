@@ -2,7 +2,7 @@
     "Stateless Arrow Function":{
         "prefix": "saf",
         "body":[
-            "const ${TM_FILENAME_BASE}: React.FC<${1}> = (${2})=>{",
+            "const ${TM_FILENAME_BASE}: React.FC = (${2})=>{",
             "",
             "    return(",
             "",
@@ -15,6 +15,30 @@
             "export default ${TM_FILENAME_BASE}"
         ],
         "description": "Stateless Arrow Function"
+    },
+
+    "Stateless Function with Props":{
+        "prefix": "sfp",
+        "body":[
+            "interface ${TM_FILENAME_BASE}Props{",
+            "",
+            "    ${1}: ${2}",
+            "",
+            "}",
+            "",
+            "const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = ({ ${1} })=>{",
+            "",
+            "    return(",
+            "",
+            "        ${3:<h1>${TM_FILENAME_BASE}</h1>}",
+            "",
+            "    )",
+            "",
+            "}",
+            "", 
+            "export default ${TM_FILENAME_BASE}"
+        ],
+        "description": "Stateless Function with Props"
     },
 
     "Stateless function":{
