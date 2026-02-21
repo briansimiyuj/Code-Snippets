@@ -315,6 +315,76 @@
         "prefix": "rm",
         "body": "{ ${2} } = use${1}()${3:,}",
         "description": "Retrieve Multiple Properties from Context"
+    },
+
+    "React Fragment":{
+        "prefix": "rf",
+        "body":[
+            "<>",
+            "",
+            "    ${1}",
+            "",
+            "</>"
+        ],
+        "description": "React Fragment"
+    },
+
+    "Ternary Operator":{
+        "prefix": "tr",
+        "body": "${1:condition} ? ${2:ifTrue} : ${3:ifFalse}",
+        "description": "Ternary Operator"
+    },
+
+    "Map Array JSX":{
+        "prefix": "m",
+        "body":[
+            "{",
+            "",
+            "    ${1:array}.map(${2:item} =>(",
+            "",
+            "        ${3}",
+            "",
+            "    ))",
+            "",
+            "}"
+        ],
+        "description": "Map Array JSX"
+    },
+
+    "Map Array JSX with Index":{
+        "prefix": "mi",
+        "body":[
+            "{",
+            "",
+            "    ${1:array}.map((${2:item}, ${3:index}) =>(",
+            "",
+            "        ${4}",
+            "",
+            "    ))",
+            "",
+            "}"
+        ],
+        "description": "Map Array JSX with Index"
+    },
+
+    "Map Array JSX with Key":{
+        "prefix": "mk",
+        "body":[
+            "{",
+            "",
+            "    ${1:array}.map((${2:item}) =>(",
+            "",
+            "        <${3:div} key={${2}.${4:id}}>",
+            "",
+            "            ${5}",
+            "",
+            "        </${3}>",
+            "",
+            "    ))",
+            "",
+            "}"
+        ],
+        "description": "Map Array JSX with Key"
     }
 
 }
