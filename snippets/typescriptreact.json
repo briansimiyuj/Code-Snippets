@@ -98,9 +98,9 @@
     "Arrow Function Async":{
         "prefix": "afa",
         "body":[
-            "const ${1: functionName} = async(${2}): Promise<${3}> =>{",
+            "const ${1:functionName} = async(${2})${3:: Promise<${4}>} =>{",
             "",
-            "   ${4}",
+            "   ${5}",
             "",
             "}"
         ],
@@ -385,6 +385,78 @@
             "}"
         ],
         "description": "Map Array JSX with Key"
-    }
+    },
+
+    "Ternary JSX":{
+        "prefix": "trx",
+        "body":[
+            "{",
+            "",
+            "    ${1:condition} ?(",
+            "",
+            "        ${2}",
+            "",
+            "    ):${3: null}",
+            "",
+            "}"
+        ],
+        "description": "Ternary JSX"
+    },
+
+    "Ternary JSX Full":{
+        "prefix": "trxf",
+        "body":[
+            "{",
+            "",
+            "    ${1:condition} ?(",
+            "",
+            "        ${2}",
+            "",
+            "    ):(",
+            "",
+            "        ${3}",
+            "",
+            "    )",
+            "",
+            "}"
+        ],
+        "description": "Ternary JSX Full"
+    },
+
+    "Ternary JSX Nested":{
+        "prefix": "trxn",
+        "body":[
+            "{",
+            "",
+            "    ${1:condition1} ?(",
+            "",
+            "        ${2}",
+            "",
+            "    ): ${3:condition2} ?(",
+            "",
+            "        ${4}",
+            "",
+            "    ): ${5:null}",
+            "",
+            "}"
+        ],
+        "description": "Ternary JSX Nested"
+    },
+
+    "Conditional Render":{
+        "prefix": "cr",
+        "body":[
+            "{",
+            "",
+            "    ${1:condition} &&(",
+            "",
+            "        ${2}",
+            "",
+            "    )",
+            "",
+            "}"
+        ],
+        "description": "Conditional Render"
+       }
 
 }
