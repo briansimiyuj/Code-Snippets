@@ -254,11 +254,11 @@
             "",
             "}catch(error){",
             "",
-            "   console.error('Error: ', error)",
+            "   console.error('Error $2: ', error)",
             "",
             "}finally{",
             "",
-            "   ${2}",
+            "   ${3:setLoading(false)}",
             "",
             "}"
         ],
@@ -303,6 +303,18 @@
             "}, [${4}])"
         ],
         "description": "Call Back Function"
+    },
+
+    "Call Back Function Async":{
+        "prefix": "cba",
+        "body":[
+            "const ${1:functionName} = useCallback(async ($2) =>{",
+            "",
+            "    ${3} ",
+            "",
+            "}, [${4}])"
+        ],
+        "description": "Call Back Function Async"
     },
 
     "Retrieve Property":{
@@ -457,6 +469,6 @@
             "}"
         ],
         "description": "Conditional Render"
-       }
+    }
 
 }
