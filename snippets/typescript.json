@@ -193,6 +193,48 @@
 			"}"
 		],
 		"description": "Interface"
+	},
+
+	"Name Interface":{
+	    "prefix": "in",
+		"body":[
+			"export interface ${1:InterfaceName}Type{",
+			"",
+			"    $2",
+			"",
+			"}"
+		],
+		"description": "Name Interface"
+	},
+
+	"Type":{
+	    "prefix": "t",
+		"body":[
+			"export type ${TM_FILENAME_BASE} ={",
+			"",
+			"    $1",
+			"",
+			"}"
+		],
+		"description": "Type"
+	},
+
+	"Name Type":{
+	    "prefix": "tn",
+		"body":[
+			"export type ${1:TypeName} ={",
+			"",
+			"    $2",
+			"",
+			"}"
+		],
+		"description": "Name Type"
+	}, 
+
+	"Line Type":{
+		"prefix": "lt",
+		"body": "export type ${1:TypeName} = ${2:string | number | boolean | any}",
+		"description": "Line Type"
 	}
 
 }

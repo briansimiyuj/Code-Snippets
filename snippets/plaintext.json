@@ -1,0 +1,45 @@
+{
+
+	"Short Commit Message":{
+		"prefix": "sc",
+		"body": "Give me a small commit message for this, where there is //changes",
+		"description": "Short Commit Message"
+	},
+
+	"Long Commit Message":{
+		"prefix": "lc",
+		"body": "Now give me detailed commit message  for this. Changes are indicated by // changes or // new file. DONT WRITE CODE IN THE COMMIT MESSAGE",
+		"description": "Long Commit Message"
+	},
+
+	"Changes":{
+	    "prefix": "c",
+		"body": "// changes",
+		"description": "Changes"
+	},
+
+	"End changes":{
+	    "prefix": "ec",
+		"body": "// end changes",
+		"description": "End Changes"
+	},
+
+	"New File":{
+	    "prefix": "nf",
+		"body": "// new file",
+		"description": "New File"
+	},
+
+	"End New File":{
+	    "prefix": "enf",
+		"body": "// end new file",
+        "description": "End New File"
+	},
+
+	"My Coding Style":{
+		"prefix": "mcs",
+		"body": "Strictly use my coding style as exactly it is below",
+		"description": "My coding style"
+	}
+	
+}
