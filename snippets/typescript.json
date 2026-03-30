@@ -37,7 +37,7 @@
 		"body": [
 		  "const ${1:functionName} = (${2:${3:parameter}:${4:type}}) =>{",
 		  "",
-		  "  $5",
+		  "    $5",
 		  "",
 		  "};",
 		  "",
@@ -61,7 +61,7 @@
 	"Name Function Async":{
 		"prefix": "fa",
 		"body": [
-		  "async function ${1:functionName}(${2:${3:parameter}:${4:type}}) {",
+		  "async function ${1:functionName}(${2:${3:parameter}:${4:type}}){",
 		  "",
 		  "  $5",
 		  "",
@@ -181,6 +181,18 @@
 			"})"
 		],
 		"description": "New Promise"
+	},
+
+	"Interface":{
+	    "prefix": "i",
+		"body":[
+			"export interface ${TM_FILENAME_BASE}{",
+			"",
+			"    $1",
+			"",
+			"}"
+		],
+		"description": "Interface"
 	}
 
 }
