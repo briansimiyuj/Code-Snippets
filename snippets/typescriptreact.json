@@ -18,19 +18,45 @@
     },
 
     "Stateless Function with Props":{
-        "prefix": "sfp",
+    "prefix": "sfp",
+    "body":[
+        "interface ${TM_FILENAME_BASE}Props{",
+        "",
+        "    ${1}: ${2}",
+        "",
+        "}",
+        "",
+        "const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = ({ ${1} })=>{",
+        "",
+        "    return(",
+        "",
+        "        ${3:<h1>${TM_FILENAME_BASE}</h1>}",
+        "",
+        "    )",
+        "",
+        "}",
+        "", 
+        "export default ${TM_FILENAME_BASE}"
+    ],
+    "description": "Stateless Function with Props"
+},
+
+    "Stateless Function with Multiple Props":{
+        "prefix": "sfpm",
         "body":[
             "interface ${TM_FILENAME_BASE}Props{",
             "",
             "    ${1}: ${2}",
+            "    ${3}?: ${4}",
+            "    ${5}?: ${6}",
             "",
             "}",
             "",
-            "const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = ({ ${1} })=>{",
+            "const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = ({ ${1}, ${3}, ${5} })=>{",
             "",
             "    return(",
             "",
-            "        ${3:<h1>${TM_FILENAME_BASE}</h1>}",
+            "        ${7:<h1>${TM_FILENAME_BASE}</h1>}",
             "",
             "    )",
             "",
@@ -38,7 +64,7 @@
             "", 
             "export default ${TM_FILENAME_BASE}"
         ],
-        "description": "Stateless Function with Props"
+        "description": "Stateless Function with Multiple Props (2 optional)"
     },
 
     "Stateless function":{
