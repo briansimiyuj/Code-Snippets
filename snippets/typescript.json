@@ -233,7 +233,7 @@
 
 	"Line Type":{
 		"prefix": "lt",
-		"body": "export type ${1:TypeName} = ${2:string | number | boolean | any}",
+		"body": "export type ${1:TypeName} = ${2:${3:string} | ${4:number} | ${5:boolean} | ${6:any}}",
 		"description": "Line Type"
 	}
 
