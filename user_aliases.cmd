@@ -27,6 +27,7 @@ gclt=git clone "$1"
 gp=git push "$1" "$2 "
 gig=touch .gitignore $
 gt= git init $
+nt= npm init -y $
 gut= rm -rf .git $
 gpo=git pull origin "$1"
 gcb=git checkout "$1" 
