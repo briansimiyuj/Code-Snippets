@@ -171,5 +171,15 @@
 			"})"
 		],
 		"description": "New Promise"
+	},
+
+	"MongoDB Connect":{
+		"prefix": "mc",
+		"body": [
+			"mongoose.connect(process.env.${1:dbURI})",
+			"    .then(() => console.log('MongoDB connected ✅'))",
+			"    .catch(err => console.log(err))"
+		],
+		"description": "MongoDB Connect"
 	}
 }
