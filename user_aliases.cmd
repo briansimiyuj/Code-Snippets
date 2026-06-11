@@ -88,6 +88,7 @@ grro= git remote remove origin
 gv= git remote -v
 gpuo= git push -u origin master
 gpua= git push -u origin --all
+startdb="C:\Program Files\MongoDB\Server\6.0\bin\mongod.exe" --dbpath "C:\data\db"
 vc= npm create vite@latest "$1"
 cra= npx create-react-app "$1"
 cdr= alias /reload $
