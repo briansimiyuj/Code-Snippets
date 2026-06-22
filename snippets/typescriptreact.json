@@ -145,6 +145,28 @@
         "description": "Arrow Function Symbol"
     },
 
+    "Arrow Function Symbol Return":{
+        "prefix": "ar",
+        "body":["() =>{",
+            "",
+            "    $1",
+            "",
+            "}$2"
+        ],
+        "description": "Arrow Function Symbol Return"
+    },
+
+    "Arrow Function Symbol Return Async":{
+        "prefix": "ara",
+        "body":["async() =>{",
+            "",
+            "    $1",
+            "",
+            "}$2"
+        ],
+        "description": "Arrow Function Symbol Return Async"
+    },
+
     "Console Log":{
         "prefix": "cl",
         "body": "console.log($1)",
