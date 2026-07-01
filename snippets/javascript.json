@@ -228,6 +228,24 @@
 		],
 		"description": "Route Handler Async"
 
+	},
+
+	"File System With Constants":{
+		"prefix": "fsc",
+		"body":[
+			"const __fileName = fileURLToPath(import.meta.url),",
+			"      __dirName = path.dirname(__fileName)"
+		],
+		"description": "File System With Constants"
+	},
+
+	"File System":{
+		"prefix": "fs",
+		"body":[
+			"__fileName = fileURLToPath(import.meta.url),",
+			"__dirName = path.dirname(__fileName)"
+		],
+		"description": "File System"
 	}
 
 }
