@@ -208,7 +208,7 @@
 	"Route Handler":{
 		"prefix": "rh",
 		"body": [
-			"const ${1:routeHandler} = (req, res) =>{",
+			"const ${1:${TM_FILENAME_BASE}} = (req, res) =>{",
 			"",
 			"    $2",
 			"",
@@ -220,7 +220,7 @@
 	"Route Handler Async":{
 		"prefix": "rha",
 		"body": [
-			"const ${1:routeHandler} = async(req, res) =>{",
+			"const ${1:${TM_FILENAME_BASE}} = async(req, res) =>{",
 			"",
 			"    $2",
 			"",
