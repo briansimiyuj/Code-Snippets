@@ -246,6 +246,42 @@
 			"__dirName = path.dirname(__fileName)"
 		],
 		"description": "File System"
+	},
+
+	"Route Handler Express":{
+		"prefix": "rhe",
+		"body": [
+			"const ${1:functionName} = (req, res) =>{",
+			"",
+			"    $2",
+			"",
+			"}"
+		],
+		"description": "Route Handler Express (req, res)"
+	},
+
+	"Route Handler Express Async":{
+		"prefix": "rhea",
+		"body": [
+			"const ${1:functionName} = async(req, res) =>{",
+			"",
+			"    $2",
+			"",
+			"}"
+		],
+		"description": "Route Handler Express Async (req, res)"
+	},
+
+	"Route Handler with Next":{
+		"prefix": "rhn",
+		"body": [
+			"const ${1:functionName} = (req, res, next) =>{",
+			"",
+			"    $2",
+			"",
+			"}"
+		],
+		"description": "Route Handler with Next (req, res, next)"
 	}
 
 }
