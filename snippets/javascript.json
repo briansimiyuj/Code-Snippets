@@ -316,6 +316,18 @@
             "export default ${TM_FILENAME_BASE}"
         ],
         "description": "Create Express Router with routes"
-    }
+    },
+
+	"Retreive From Request Body":{
+		"prefix": "r",
+		"body": "const { $1 } = req.body",
+		"description": "Retreive From Request Body"
+	},
+
+	"Retreive From Request Params":{
+		"prefix": "rp",
+		"body": "const { $1 } = req.params",
+		"description": "Retreive From Request Params"
+	}
 
 }
