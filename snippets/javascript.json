@@ -308,7 +308,9 @@
 
 	"Express Router":{
         "prefix": "er",
-        "body": [
+        "body":[
+			"import express from \"express\"",
+			"",
             "const ${TM_FILENAME_BASE} = express$1.Router()",
             "",
             "${TM_FILENAME_BASE}.${2:get}(\"${3:/route}\", ${4:handler})",
@@ -328,6 +330,12 @@
 		"prefix": "rp",
 		"body": "const { $1 } = req.params",
 		"description": "Retreive From Request Params"
+	},
+
+	"Retrrieve From Request Query":{
+		"prefix": "rq",
+		"body": "const { $1 } = req.query",
+		"description": "Retreive From Request Query"
 	}
 
 }
