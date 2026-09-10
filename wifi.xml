@@ -1,0 +1,65 @@
+$wifiName = "BRIAN"
+$wifiPass = "58062012"
+
+$xmlContent = @"
+
+<?xml version="1.0"?>
+
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+
+    <name>$wifiName</name>
+
+    <SSIDConfig>
+    
+        <SSID>
+        
+            <name>$wifiName</name>
+        
+        </SSID>
+
+        <connectionType>ESS</connectionType>
+
+        <connectionMode>auto</connectionMode>
+
+        <MSM>
+        
+            <security>
+            
+                <authEncryption>
+                
+                    <authentication>WPA2PSK</authentication>
+
+                    <encryption>AES</encryption>
+
+                    <useOneX>false</useOneX>
+                
+                </authEncryption>
+
+                <sharedKey>
+                
+                    <keyType>network</keyType>
+
+                    <protected>false</protected>
+
+                    <keyMaterial>$wifiPass</keyMaterial>
+                
+                </sharedKey>
+            
+            </security>
+        
+        </MSM>
+    
+    </SSIDConfig>
+
+</WLANProfile>
+
+"@
+
+New-Item -ItemType Directory -Force -Path "C:\Temp" | Out-Null; [System.IO.File]::WriteAllText("C:\Temp\clean_wifi.xml", $xmlContent, [System.Text.Encoding]::UTF8)
+
+& "$env:SystemRoot\System32\netsh.exe" wlan add profile filename="C:\Temp\clean_wifi.xml" user=all
+& "$env:SystemRoot\System32\netsh.exe" wlan connect name=$wifiName
+
+Start-Process -FilePath "C:\Windows\System32\netsh.exe" -ArgumentList 'wlan add profile filename="C:\Temp\clean_wifi.xml" user=all' -Wait
+Start-Process -FilePath "C:\Windows\System32\netsh.exe" -ArgumentList 'wlan connect name="Brian"' -NoNewWindow -Wait
+& "C:\Windows\System32\netsh.exe" wlan add profile filename="C:\Temp\clean_wifi.xml" user=all
