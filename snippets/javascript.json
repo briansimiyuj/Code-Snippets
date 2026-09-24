@@ -313,7 +313,7 @@
 			"",
             "const ${TM_FILENAME_BASE} = express$1.Router()",
             "",
-            "${TM_FILENAME_BASE}.${2:get}(\"${3:/route}\", ${4:handler})",
+            "${TM_FILENAME_BASE}.${2:|get,post,put,delete|}(\"${3:/route}\", ${4:handler})",
             "",
             "export default ${TM_FILENAME_BASE}"
         ],

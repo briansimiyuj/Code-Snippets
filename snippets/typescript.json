@@ -235,6 +235,105 @@
 		"prefix": "lt",
 		"body": "export type ${1:TypeName} = ${2:${3:string} | ${4:number} | ${5:boolean} | ${6:any}}",
 		"description": "Line Type"
+	},
+
+	"Route Handler Async":{
+		"prefix": "rha",
+		"body": [
+			"const ${1:${TM_FILENAME_BASE}} = async(req: Request, res: Response) =>{",
+			"",
+			"    $2",
+			"",
+			"}"
+		],
+		"description": "Route Handler Async"
+
+	},
+
+	"File System With Constants":{
+		"prefix": "fsc",
+		"body":[
+			"const __fileName = fileURLToPath(import.meta.url),",
+			"      __dirName = path.dirname(__fileName)"
+		],
+		"description": "File System With Constants"
+	},
+
+	"File System":{
+		"prefix": "fs",
+		"body":[
+			"__fileName = fileURLToPath(import.meta.url),",
+			"__dirName = path.dirname(__fileName)"
+		],
+		"description": "File System"
+	},
+
+	"Route Handler Express":{
+		"prefix": "rhe",
+		"body": [
+			"const ${1:functionName} = (req: Request, res: Response) =>{",
+			"",
+			"    $2",
+			"",
+			"}"
+		],
+		"description": "Route Handler Express (req, res)"
+	},
+
+	"Route Handler Express Async":{
+		"prefix": "rhea",
+		"body": [
+			"const ${1:functionName} = async(req: Request, res: Response) =>{",
+			"",
+			"    $2",
+			"",
+			"}"
+		],
+		"description": "Route Handler Express Async (req, res)"
+	},
+
+	"Route Handler with Next":{
+		"prefix": "rhn",
+		"body": [
+			"const ${1:functionName} = (req: Request, res: Response, next: NextFunction) =>{",
+			"",
+			"    $2",
+			"",
+			"}"
+		],
+		"description": "Route Handler with Next (req, res, next)"
+	},
+
+	"Express Router":{
+        "prefix": "er",
+        "body":[
+			"import express from \"express\"",
+			"",
+            "const ${TM_FILENAME_BASE} = express.Router()",
+            "",
+            "${TM_FILENAME_BASE}.${2:|get,post,put,delete|}(\"${3:/route}\", ${4:handler})",
+            "",
+            "export default ${TM_FILENAME_BASE}"
+        ],
+        "description": "Create Express Router with routes"
+    },
+
+	"Retreive From Request Body":{
+		"prefix": "r",
+		"body": "const { $1 } = req.body",
+		"description": "Retreive From Request Body"
+	},
+
+	"Retreive From Request Params":{
+		"prefix": "rp",
+		"body": "const { $1 } = req.params",
+		"description": "Retreive From Request Params"
+	},
+
+	"Retrrieve From Request Query":{
+		"prefix": "rq",
+		"body": "const { $1 } = req.query",
+		"description": "Retreive From Request Query"
 	}
 
 }
